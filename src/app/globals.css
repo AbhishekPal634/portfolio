@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Custom Colors */
+  --color-light-hover: #fefce8;
+  --color-dark-hover: #3a3a3d;
+  --color-dark-theme: #28282b;
+
+  /* Font Families */
+  --font-family-outfit: "Outfit", sans-serif;
+  --font-family-ovo: "Ovo", serif;
+
+  /* Box Shadows */
+  --shadow-dark-solid: 4px 4px 0 #000;
+  --shadow-light-solid: 4px 4px 0 #fff;
+}
+
+.font-outfit {
+  font-family: var(--font-family-outfit);
+}
+
+.font-ovo {
+  font-family: var(--font-family-ovo);
+}
