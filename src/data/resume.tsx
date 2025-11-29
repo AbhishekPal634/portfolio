@@ -162,7 +162,7 @@ export const DATA = {
     },
     {
       title: "Mess Menu",
-      href: "https://nmims-mess-messmenu.vercel.app",
+      href: "https://nmims-mess-menu.vercel.app",
       dates: "2024 - 2025",
       active: true,
       description:
@@ -178,7 +178,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://messmenu.vercel.app",
+          href: "https://nmims-mess-menu.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
